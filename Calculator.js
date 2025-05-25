@@ -27,16 +27,17 @@ let output =document.getElementById("out")
        }
        else if (expression.includes("X"))
        {
-        operator = "*"
+        operator = "X"
        }
        else if (expression.includes("/"))
        {
         operator = "/"
        }
-
+       
        let parts = expression.split(operator);
        A = Number(parts[0])
        B = Number(parts[1])
+       console.log(expression, operator, parts, A, B);
       
 
        if (operator == "+")
