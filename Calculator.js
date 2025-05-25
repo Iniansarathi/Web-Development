@@ -42,19 +42,19 @@ let output =document.getElementById("out")
 
        if (operator == "+")
        {
-       outval = A + B;
+       outval = parseFloat((A + B).toFixed(2))
        }
        else if (operator == "-")
        {
-        outval = A - B;
+        outval = parseFloat((A - B).toFixed(2))
        }
        else if (operator == "X")
        {
-        outval = A * B;
+        outval = parseFloat((A * B).toFixed(2))
        }
        else if (operator == "/")
        {
-        outval = A / B;
+        outval = parseFloat((A / B).toFixed(2))
        }
        output.textContent= outval
 
