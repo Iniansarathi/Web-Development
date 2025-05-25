@@ -1,0 +1,88 @@
+.mainBox{
+    margin: 100px;
+    border: solid black 10px;
+    height: 900px;
+    width: 800px;
+    background-color: black;
+}
+.displayBox{
+    height: 250px;
+    background-color: white ;
+}
+.inputBox{
+    height: 125px;
+    border: solid gray 1px;
+}
+.outputBox{
+    height: 125px;
+    border: solid gray 1px;
+}
+.buttonsBox{
+    height: 650px;
+    display: flex;
+    
+}
+.numbersBox{
+    width: 500px;
+    height: 650px;
+    border: solid gray 1px;
+    display: block;
+}
+.oneTwoThree{
+    font-size: 100px;
+    width: 110px;
+    border-radius: 50px;
+    margin: 20px;
+
+}
+.fourFiveSix{
+    font-size: 100px;
+    width: 110px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.sevenEightNine{
+    font-size: 100px;
+    width: 110px;
+    border-radius: 50px;
+    margin: 20px;
+}
+.zeroDot{
+    font-size: 100px;
+    width: 110px;
+    border-radius: 50px;
+    margin: 20px;    
+}
+.operatorsBox{
+    width: 300px;
+    height: 650px;
+    border: solid gray 1px;
+    display: block;
+}
+.plusMinus{
+    font-size: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;    
+}
+.mulDiv{
+    font-size: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px;  
+}
+.equal{
+    font-size: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 20px; 
+    margin-left: 30%; 
+}
+.reset{
+    font-size: 70px;
+    width: 270px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px; 
+    margin-top: 13%; 
+}
